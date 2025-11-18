@@ -1,0 +1,22 @@
+LI     6.94100  ; Lithium
+NA     22.9898  ; Sodium 
+K      39.0983  ; Potassium
+RB     85.4678  ; Rubidium
+CS     132.90545; Cesium
+MG     24.305   ; Magnesium
+CA     40.078   ; Calcium
+BA     137.34   ; Barium
+SR     87.62    ; Strontium
+F      18.998403; Flourine
+CL     35.4530  ; Chlorine
+BR     79.904   ; Bromine
+I      126.90447; Iodine
+OSO4   24.01565 ; Oxygen in SO4
+SSO4   0        ; Sulphur in SO4
+IW     0        ; Virtual site 
+OWT4   15.9994  ; Oxygen in TIP4P/2005 water
+HW     1.00794  ; Hydrogen in TIP4P/2005 water
+N1     14.0067  ; Nitrogen in NO3
+ON     15.9994  ; Oxygen in NO3
+HNH4   4.50794  ; Hydrogen in NH4
+NNH4   0        ; Nitrogen in NH4

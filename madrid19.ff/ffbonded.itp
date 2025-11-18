@@ -1,0 +1,9 @@
+[ bondtypes ]
+; i    j  func       b0          kb
+ OWT4  HW      1    0.09572  462750.4  ; Madrid19
+ OWT4  HW      1    0.15136  462750.4  ; Madrid19
+
+[ angletypes ]
+;  i    j    k  func       th0       cth
+ HW  OWT4  HW     1    104.520  836.800  ; Madrid19
+ HW  OWT4  OWT4     1    127.740    0.000  ; Madrid19

@@ -1,0 +1,58 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers
+1        1       9          4
+
+; -------- monatomic cations --------
+[ LI ]
+ [ atoms ]
+ ; name  type  charge
+  LI      LI     0.850  1
+
+[ NA ]
+ [ atoms ]
+  NA      NA     0.850  1
+
+[ K ]
+ [ atoms ]
+  K       K      0.850  1
+
+[ RB ]
+ [ atoms ]
+  RB      RB     0.850 1
+
+[ CS ]
+ [ atoms ]
+  CS      CS     0.850  1
+
+[ MG ]
+ [ atoms ]
+  MG      MG     1.700  1
+
+[ CA ]
+ [ atoms ]
+  CA      CA     1.700  1
+
+[ SR ]
+ [ atoms ]
+  SR      SR     1.700  1
+
+[ BA ]
+ [ atoms ]
+  BA      BA     1.700  1
+
+; -------- monatomic anions --------
+[ F ]
+ [ atoms ]
+  F       F     -0.850  1
+
+[ CL ]
+ [ atoms ]
+  CL      CL    -0.850  1
+
+[ BR ]
+ [ atoms ]
+  BR      BR    -0.850  1
+
+[ I ]
+ [ atoms ]
+  I       I     -0.850  1

@@ -1,0 +1,221 @@
+[moleculetype]
+; name nrexcl
+NA  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     NA      1    NA    NA       1     0.8500     22.9898
+
+[moleculetype]
+; name nrexcl
+CL  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     CL      1    CL    CL       1    -0.8500     35.453
+
+[ moleculetype ]
+; molname       nrexcl
+MG      1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+     1     MG      1    MG     MG      1     1.7        24.3050
+
+[ moleculetype ]
+; molname       nrexcl
+CA      1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1       CA          1       CA          CA       1       1.7     40.078
+
+[ moleculetype ]
+; molname       nrexcl
+BA      1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1       BA          1       BA          BA       1       1.7     137.34
+
+[ moleculetype ]
+; molname       nrexcl
+SR      1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1       SR          1       SR          SR       1       1.7     87.62
+
+[moleculetype]
+; name nrexcl
+K   1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     K       1    K     K        1     0.8500     39.0983
+
+[moleculetype]
+; name nrexcl
+LI  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     LI      1    LI    LI       1     0.8500     6.94100
+
+[moleculetype]
+; name nrexcl
+RB  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     RB      1    RB    RB       1     0.8500     85.4678
+
+[moleculetype]
+; name nrexcl
+CS 1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     CS     1    CS   CS      1     0.8500     132.90545
+
+[moleculetype]
+; name nrexcl
+F  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     F      1    F    F       1     -0.8500     18.998403
+
+[moleculetype]
+; name nrexcl
+BR 1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     BR     1    BR   BR      1     -0.8500     79.904
+
+[moleculetype]
+; name nrexcl
+I  1
+
+[atoms]
+; nr type resnr residu atom cgnr charge
+     1     I       1    I     I       1      -0.8500     126.90447
+
+[moleculetype]
+; name nrexcl
+NO3  1
+
+[atoms]
+; nr type resnr residu atom cgnr   charge
+1     N1   1     NO3    N1   1     0.6749    14.0067
+2     ON   1     NO3    ON2  1    -0.5083    15.9994
+3     ON   1     NO3    ON3  1    -0.5083    15.9994
+4     ON   1     NO3    ON4  1    -0.5083    15.9994
+
+[constraints]
+;i j funct doh  dhh
+1       2       1       0.126
+1       3       1       0.126
+1       4       1       0.126
+2       3       1       0.218
+2       4       1       0.218
+3       4       1       0.218
+
+[exclusions]
+1       2       3       4
+2       1       3       4
+3       1       2       4
+4       1       2       3
+
+
+; The NO3 geometry is defined as follows:
+;
+;               O
+;
+;
+;               N
+;
+;       O               O
+;
+;The angle O-N-O is 120.0 degrees
+
+[moleculetype]
+; name nrexcl
+NH4  1
+
+[atoms]
+; nr type resnr residu  atom cgnr   charge
+1     HNH4   1     NH4    HN1  1     0.2970    4.500794
+2     HNH4   1     NH4    HN2  1     0.2970    4.500794
+3     HNH4   1     NH4    HN3  1     0.2970    4.500794
+4     HNH4   1     NH4    HN4  1     0.2970    4.500794
+5     NNH4   1     NH4    NN5  1    -0.3380    0.0000
+
+[constraints]
+;i      j      funct     dist
+; dist_NX=0.1010; dist_XX=2*sqrt(2/3)*dist_NX
+1       2       1       0.164932309
+1       3       1       0.164932309
+1       4       1       0.164932309
+2       3       1       0.164932309
+2       4       1       0.164932309
+3       4       1       0.164932309
+
+[exclusions]
+1       2       3       4     5
+2       1       3       4     5
+3       1       2       4     5
+4       1       2       3     5
+5       1       2       3     4
+
+
+[ virtual_sitesn ]
+
+; Site funct from
+5       1   1 2 3 4
+
+; The hydronium geometry is defined as follows:
+;
+;               H
+;
+;
+;               N
+;               \
+;      H        H         H
+;
+;The angle H-N-H is  109.50 degrees
+
+[moleculetype]
+; name nrexcl
+SO4   1
+
+[atoms]
+;nr   type resnr residu atom cgnr  charge
+1     OSO4 1     SO4    O1   1    -0.65      24.01565
+2     OSO4 1     SO4    O2   1    -0.65      24.01565
+3     OSO4 1     SO4    O3   1    -0.65      24.01565
+4     OSO4 1     SO4    O4   1    -0.65      24.01565
+5     SSO4 1     SO4    S5   1     0.9        0.0
+
+[constraints]
+;i      j     funct     dist
+; dist_OX=0.149; dist_XX=2*sqrt(2/3)*dist_OX
+1       2       1       0.243316
+1       3       1       0.243316
+1       4       1       0.243316
+2       3       1       0.243316
+2       4       1       0.243316
+3       4       1       0.243316
+
+[exclusions]
+1       2       3       4       5
+2       1       3       4       5
+3       1       2       4       5
+4       1       2       3       5
+5       1       2       3       4
+
+[ virtual_sitesn ]
+
+; Site funct from
+5       1   1 2 3 4

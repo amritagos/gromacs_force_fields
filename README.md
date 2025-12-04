@@ -19,3 +19,5 @@ gmx solvate -cp unsolvated.gro -cs tip4p.g96 -o solvate.gro -p topol.top
 where `unsolvated.gro` is the input gro file to which water molecules will be added, only the current directory and the GMXLIB path 
 will be searched for `tip4p.g96`, *even if* you provide the full path of `tip4p.g96`!
 In order to get around this, I keep the water box files inside the directory pointed to by the GMXLIB path.
+
+The a99SBdisp model was taken from the paper [Developing a molecular dynamics force field for both folded and disordered protein states](https://www.pnas.org/doi/10.1073/pnas.1800690115) and [associated GitHub repository](https://github.com/paulrobustelli/Force-Fields).
